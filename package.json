@@ -1,0 +1,32 @@
+{
+  "name": "@timkendrick/handlebars-core-helpers",
+  "version": "0.1.0",
+  "description": "Useful helpers for Handlebars templates",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timkendrick/handlebars-core-helpers.git"
+  },
+  "author": "Tim Kendrick <timkendrick@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timkendrick/handlebars-core-helpers/issues"
+  },
+  "homepage": "https://github.com/timkendrick/handlebars-core-helpers",
+  "devDependencies": {
+    "@timkendrick/node-project": "^1.0.8"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.5"
+  }
+}
