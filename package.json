@@ -1,6 +1,6 @@
 {
   "name": "@timkendrick/handlebars-core-helpers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Useful helpers for Handlebars templates",
   "main": "index.js",
   "directories": {
