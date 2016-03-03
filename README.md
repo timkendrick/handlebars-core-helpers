@@ -33,7 +33,7 @@
 	- `{{ concat value1 value2 [...valueN] separator=[separator=''] }}` – Return a concatenated string consisting of all arguments joined together by `separator`
 	- `{{ replace source pattern replacement }}` – Replace first occurence of `pattern` in `source` with `replacement`
 	- `{{ startsWith haystack needle }}` – Return `true` if `haystack` starts with `needle`, otherwise return `false`
-	- `{{ escapeNewLines value }}` – Replace `\n` and `\r` characters in `value` with `&#10` and `&#13` HTML entities (useful to preserve formatting in `white-space: pre` elements)
+	- `{{ escapeNewlines value }}` – Replace `\n` and `\r` characters in `value` with `&#10` and `&#13` HTML entities (useful to preserve formatting in `white-space: pre` elements)
 	- `{{ nl2br value }}` – Replace newline characters in `value` with `<br/>` HTML tags
 	- `{{ wrap value left right }}` – Return an HTML-safe string consisting of an HTML-escaped `value` wrapped between unescaped `left` and `right` HTML segments
 
