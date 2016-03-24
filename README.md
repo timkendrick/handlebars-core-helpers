@@ -36,6 +36,7 @@
 	- `{{ escape-newlines value }}` – Replace `\n` and `\r` characters in `value` with `&#10` and `&#13` HTML entities (useful to preserve formatting in `white-space: pre` elements)
 	- `{{ nl2br value }}` – Replace newline characters in `value` with `<br/>` HTML tags
 	- `{{ wrap value left right }}` – Return an HTML-safe string consisting of an HTML-escaped `value` wrapped between unescaped `left` and `right` HTML segments
+	- `{{ safe value }}` – Return an HTML-safe string representation of `value`
 
 - Date helpers:
 	- `{{ timestamp date }}` – Return the UNIX timestamp corresponding to `date`, e.g. `1262304000`
